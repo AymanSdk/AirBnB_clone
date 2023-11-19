@@ -1,8 +1,8 @@
 .places {
   justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-  margin-right: 5px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
 }
 .places h1 {
   font-size: 30px;
@@ -87,6 +87,57 @@
   margin: 20px auto 20px auto;
 }
 
-footer {
-  position: relative;
+.amenities ul,
+.reviews ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.amenities li {
+  padding-bottom: 3px;
+  text-indent: 30px;
+}
+.reviews li {
+  padding-bottom: 3px;
+}
+.amenities h2,
+.reviews h2 {
+  font-size: 16px;
+  border-bottom: 1px solid #dddddd;
+  min-height: 0;
+  width: 100%;
+  text-align: left;
+}
+.pat {
+  background: url("../images/icon_pets.png") no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+}
+.tv {
+  background: url("../images/icon_tv.png") no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+}
+.wifi {
+  background: url("../images/icon_wifi.png") no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+}
+.air {
+  background: url("../images/air-conditioner1.png") no-repeat;
+  background-origin: content-box;
+  background-size: contain;
+}
+.reviews {
+  margin-top: 40px;
+  width: 100%;
+  flex: 1;
+}
+.reviews h3 {
+  font-size: 14px;
+  text-align: left;
+  padding-left: 0;
+}
+.reviews p {
+  font-size: 12px;
+  margin-top: -10px;
 }
