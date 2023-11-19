@@ -1,0 +1,16 @@
+/* global styling */ 
+body{
+    color: #484848;
+    margin: 0;
+    padding: 0;
+    font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.container{
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/* bold font */
+strong{
+    font-weight: bold;
+}
