@@ -19,7 +19,7 @@
     margin: 12px 30px;
 }
 
-/* hover offect for the search */
+/* hover offect for the */
 .filters button:hover{
     background-color: rgba(255, 90, 95, .9);
 }
@@ -41,7 +41,7 @@
 .filters h3,
 .filters h4 {
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border.box;
+      -moz-box-sizing: border.box;
             box-sizing: border-box;
             margin: 0;
 }
