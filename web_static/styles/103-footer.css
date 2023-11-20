@@ -1,0 +1,13 @@
+/* Footer styling */
+footer {
+	border-top: 1px solid #cccccc;
+	text-align: center;
+	background-color: #ffffff;
+	height: 60px;
+	width: 100%;
+	bottom: 0;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	display: flex;
+}
