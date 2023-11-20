@@ -1,6 +1,6 @@
 # Airbnb Console Clone in Python
 
-![Airbnb Console Clone](https://www.digital.ink/wp-content/uploads/airbnb_logo_detail.jpg)
+![Airbnb Console Clone](./Assests/Screenshot%202023-11-20%20130658.png)
 
 **Airbnb Console Clone** is a Python command-line interface (CLI) application that emulates some functionalities of the Airbnb project. This console allows users to interact with a simulated Airbnb environment, creating, managing, and manipulating property listings and user accounts.
 
@@ -11,18 +11,18 @@ To run the Airbnb Console Clone, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/airbnb-console-clone.git
+   git clone https://github.com/AymanSdk/AirBnB_clone.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd airbnb-console-clone
+   cd AirBnB_clone
    ```
 
 3. **Run the application:**
    ```bash
-   ./airbnb_console.py
+   ./console.py
    ```
 
 ## Features
